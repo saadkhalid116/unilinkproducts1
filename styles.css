@@ -1,0 +1,376 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    letter-spacing: -1px;
+
+
+}
+
+.hero-section {
+    background: url('Rectangle\ 1.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 500px) {
+.hero-section {
+    background: url('reduced.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+}
+
+.hero-section-product {
+    background: url('product\ Rectangle.png') no-repeat center center/cover;
+    height: 57vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section-fulfillment {
+    background: url('Rectangle\ fulfillment.png') no-repeat center center/cover;
+    height: 57vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.register-btn {
+    background-color: #FFC65E;
+    border: none;
+    color: #1E1E1E;
+    padding: 8px 45px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.register-btn:hover {
+    background-color: #e0a800;
+}
+
+@media (max-width: 991px) {
+    .register-btn {
+    background-color: #FFC65E;
+    border: none;
+    color: #1E1E1E;
+    padding: 8px 45px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+}
+
+.join-btn {
+    background-color: #0D6EFD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.text-heading {
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .text-heading {
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+  }
+h10 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card-title {
+        font-size: 26px;
+        font-weight: 700;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .card-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+  
+  }
+  .card-body-blue:hover {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white; /* Change text color to white for contrast */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+
+.card-body-blue:hover h5,
+.card-body-blue:hover p,
+.card-body-blue:hover .card-subtitle {
+  color: white; /* Explicitly set text color for all child elements */
+}
+
+.card-body-blue h5{
+    color: #0D6EFD;
+}
+ 
+
+.card-subtitle {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 600;
+}
+
+
+.card-subtitle1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #212529;
+}
+
+.bg-primary .card-title {
+    color: white;
+}
+
+.bg-primary .card-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.card-img-top {
+    height: 444px;
+    object-fit: cover;
+}
+.card-body{
+    height: 444px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .card-body{
+        height: 540px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .card-body{
+        height: 660px;
+    }
+  }
+
+.custom-width-lg {
+    width: 100%; /* Default for all screens */
+}
+
+@media (max-width: 992px) {
+    .custom-width-lg {
+        width: 100%; /* Reduce width for lg screens */
+    }
+}
+
+.split-background {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .split-background {
+    height: 80vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+@media (max-width: 600px) {
+    .split-background {
+    height: 70vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 450px) {
+    .split-background {
+    height: 60vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 400px) {
+    .split-background {
+    height: 50vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+.content-wrapper {
+    z-index: 2; /* Ensure content appears above the background */
+}
+
+.split-background img {
+    width: 100%; /* Adjust width as needed */
+    border-radius: 12px; /* Rounded edges for the image */
+    object-fit: cover;
+}
+
+.register-btn1 {
+    background-color: #FFC65E; /* Yellow color */
+    border: none;
+    color: #1E1E1E;
+    padding: 10px 195px;
+    font-size: 16px;
+    border-radius: 25px; /* Rounded button */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 475px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 145px;
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+.register-btn1:hover {
+    background-color: #e0a800; /* Slightly darker yellow on hover */
+}
+
+h2, p {
+    margin: 0;
+}
+
+.rounded-container {
+    background-color: #F8F8F8; /* Light gray background */
+    border-radius: 20px; /* Slight rounding of corners */
+    padding: 30px; /* Add some internal spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+}
+
+.responsive-paragraph {
+    max-width: 58%; /* Default width for screens >= 992px */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 991.98px) {
+    .responsive-paragraph {
+        max-width: 90%; /* Set width to 80% for screens < 992px */
+    }
+}
